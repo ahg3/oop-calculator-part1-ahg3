@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 10
     },
     {
       "name": "Subtraction",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 10
     },
     {
       "name": "Division",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 10
     },
     {
       "name": "Multiplication",
@@ -38,7 +38,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 10
+    },
+    {
+      "name": "Calculator",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest --pylint tests/test_calculator.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 60
     }
   ]
 }
