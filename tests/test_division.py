@@ -5,12 +5,11 @@ from app.division import division
 
 
 def test_division():
-    """This always passes"""
-    quotient = division(2, 2)
-    assert quotient == 1
+    """Divide Two Numbers"""
+    assert division(2,2) == 1
 
 
 def test_division_div_zero():
-    """This always passes"""
+    """Tests that division by zero exception is thrown"""
     with pytest.raises(ZeroDivisionError):
-        quotient = division(2, 0)
+        division(4, 0)

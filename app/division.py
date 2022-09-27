@@ -1,6 +1,7 @@
-"""This file contains additoin fucntions"""
+"""This file contains division functions"""
 
 
 def division(val1, val2):
-    """This function returns the div of two values"""
+    """Divide Two Numbers"""
     return val1 / val2
+
